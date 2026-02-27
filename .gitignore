@@ -1,0 +1,55 @@
+# -----------------------------
+# Maven / Java
+# -----------------------------
+backend/target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
+/.idea/
+/*.ipr
+/*.iws
+
+# Lombok generated files
+/lombok.config
+
+# -----------------------------
+# IntelliJ / VSCode
+# -----------------------------
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# -----------------------------
+# Python / Worker
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# -----------------------------
+# Node / Frontend
+# -----------------------------
+node_modules/
+dist/
+.next/
+out/
+
+# -----------------------------
+# OS / Misc
+# -----------------------------
+*.bak
+*.tmp
+*.orig
+*.log
+
+# -----------------------------
+# Environment / secrets
+# -----------------------------
+.env
